@@ -6,4 +6,5 @@ import (
 func main() {
 	var student [3]string 
 	fmt.Println(student)
+	fmt.Println(len(student))
 }

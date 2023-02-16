@@ -4,5 +4,6 @@ import (
 )
 
 func main() {
-	
+	var student [3]string 
+	fmt.Println(student)
 }

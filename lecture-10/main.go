@@ -12,5 +12,6 @@ var fruits []string
 fruits = append(fruits, "apple","banana")
 fmt.Println(fruits)
 
+fmt.Printf("%T",fruits)
 
 }

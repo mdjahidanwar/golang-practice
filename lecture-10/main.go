@@ -1,7 +1,7 @@
 package main
 import (
 "fmt"
-//"reflect"
+"reflect"
 )
 
 func main() {
@@ -11,7 +11,9 @@ fmt.Println(a)
 var fruits []string
 fruits = append(fruits, "apple","banana")
 fmt.Println(fruits)
+fmt.Printf("%T\n",fruits)
 
-fmt.Printf("%T",fruits)
+b:=reflect.TypeOf(fruits).Kind().String()
+fmt.Println(b)
 
 }

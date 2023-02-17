@@ -5,9 +5,8 @@ import (
 
 func main() {
 
- var x map[string]string
-// x["key"]=10
-
+x:= make(map[string]string)
+x["name"]="jahid"
 fmt.Println(x)
 
 

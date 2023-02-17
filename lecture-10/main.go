@@ -1,11 +1,10 @@
 package main
-
 import (
-	"fmt"
+"fmt"
+//"reflect"
 )
 
 func main() {
-	var fruits []string
-	fruits = append(fruits, "apple", "banana")
-	fmt.Println(fruits)
+a:=make([]string,0)
+fmt.Println(a)
 }

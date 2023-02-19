@@ -2,8 +2,6 @@ package main
 import (
 "fmt"
 )
-
-
 //type book struct {
 //title string 
 //author string 
@@ -31,6 +29,10 @@ pages: 10,
 
 
 fmt.Println(b1)
+
+
+var w1 weight 
+fmt.Println(w1)
 
 
 }

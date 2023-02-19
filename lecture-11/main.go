@@ -32,6 +32,7 @@ fmt.Println(b1)
 
 
 var w1 weight 
+w1=30.5
 fmt.Println(w1)
 
 

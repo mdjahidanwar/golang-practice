@@ -4,20 +4,33 @@ import (
 )
 
 
-type book struct{
-title string 
-author string 
-ISBN string 
-price float32
-pages int
-}
+//type book struct {
+//title string 
+//author string 
+//pages int 
+//ISBN string 
+//price float32
+//}
 
 func main() {
-var b1 book 
-b1.title="an introduction to programming in go"
-b1.author="caleb doxy"
-b1.ISBN="978-1478355823"
-b1.price=10.50
-b1.pages=165
+//var b1 book
+
+b1:= struct{
+title string 
+author string 
+pages int
+ISBN string 
+price float32
+}{
+title: "an introduction",
+author: "jahid",
+ISBN: "9x9x9x9xx9",
+price: 10.80,
+pages: 10,
+}
+
+
 fmt.Println(b1)
+
+
 }

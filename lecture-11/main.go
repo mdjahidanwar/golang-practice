@@ -1,23 +1,18 @@
-package main
+package main 
 import (
 "fmt"
 )
 
-func main() {
-//var b1 book
 
 
-book.title= "an introduction"
-book.author= "jahid"
-book.ISBN= "9x9x9x9xx9"
-book.price= 10.80
-book.pages= 10
 
-fmt.Println(book)
+func main( ) {
 
-var w1 weight 
-w1=30.5
-fmt.Println(w1)
 
+b2=20
+b1.title = "hello there"
+
+fmt.Println (b1)
+fmt.Println (b2)
 
 }

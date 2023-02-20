@@ -1,18 +1,12 @@
 package main 
-type weight float32
 
-type b1 struct{
+type book struct {
 title string 
-author string 
-pages int
-ISBN string 
 price float32
+author string 
+ISBN string 
+pages int
 }
-var book b1
-//type book struct {
-//title string 
-//author string 
-//pages int 
-//ISBN string 
-//price float32
-//}
+
+var b1 book 
+var b2 int 

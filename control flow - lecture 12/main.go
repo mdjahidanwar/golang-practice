@@ -31,6 +31,7 @@ func main() {
 switch age {
 	case 2:
             fmt.Println("infant")
+	    fallthrough 
 	case 3,4,5,6,7,8,9,10,11,12:
             fmt.Println("children")
 	case 13,14,15,16,17,18,19:

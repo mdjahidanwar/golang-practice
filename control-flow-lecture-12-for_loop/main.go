@@ -24,9 +24,11 @@ func main() {
 	fmt.Println(i,std)
 } 
 */
-for true {
-fmt.Println("hello")
 
+i:=1
+for i<10 {
+fmt.Println(i,"hello")
+i++
 
 }
 

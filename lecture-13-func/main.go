@@ -72,10 +72,17 @@ func main() {
 
 
 //example 8
+/*
 a:=func(x,y int)(r int ) {
 r=x*y
 return
 }
+*/
+//fmt.Println(a(10,10))
 
-fmt.Println(a(10,10))
+a:=func(x,y int) (r int) {
+r=x+y
+return
+}(10,10)
+fmt.Println(a)
 }

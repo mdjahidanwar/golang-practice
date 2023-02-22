@@ -17,4 +17,11 @@ func main() {
 
 }
 
+ students:=[]string{"jahid","mainul","jakir"}
+ for i, std:=range students {
+	fmt.Println(i,std)
+} 
+
+
+
 }

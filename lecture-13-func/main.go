@@ -33,25 +33,39 @@ func add(x int, y int) (r int) {
 	return
 }
 */
+
 //example 5 
+/*
 func rectangle (l,b int) (area, parameter int ){
 parameter = 2*(l+b)
 area=l*b
 return 
 }
+*/
 //example 6
-
+/*
 func Add(x int, y int) (r int) {
 r=x*y
 return
 }
+*/
+
+func update(a *int, t *string) {
+*a = *a +5
+*t = *t+ "Doe"
+}
 
 func main() {
-
 //	x := add(10, 30)
 //	fmt.Println(x)
-a,p:= rectangle (10,10)
-fmt.Println(a,p)
-c:=Add(10,10)
-fmt.Println(c)
+//a,p:= rectangle (10,10)
+//fmt.Println(a,p)
+//c:=Add(10,10)
+//fmt.Println(c)
+number:= 10
+name:= "jahid"
+
+
+update (&number,&name)
+fmt.Println(number,name)
 }

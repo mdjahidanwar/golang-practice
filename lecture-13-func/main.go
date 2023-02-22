@@ -49,11 +49,13 @@ r=x*y
 return
 }
 */
-
+//example 7
+/*
 func update(a *int, t *string) {
 *a = *a +5
 *t = *t+ "Doe"
 }
+*/
 
 func main() {
 //	x := add(10, 30)
@@ -62,10 +64,18 @@ func main() {
 //fmt.Println(a,p)
 //c:=Add(10,10)
 //fmt.Println(c)
-number:= 10
-name:= "jahid"
+
+//number:= 10
+//name:= "jahid"
+//update (&number,&name)
+//fmt.Println(number,name)
 
 
-update (&number,&name)
-fmt.Println(number,name)
+//example 8
+a:=func(x,y int)(r int ) {
+r=x*y
+return
+}
+
+fmt.Println(a(10,10))
 }

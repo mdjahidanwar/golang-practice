@@ -1,6 +1,12 @@
 package main
 import "fmt"
 
+func update (a *int ) {
+fmt.Println(a)
+*a=*a+10
+}
+
+
 func main() {
 var x int 
 var y *int
@@ -13,4 +19,9 @@ y=&x //referencing
 fmt.Println("value of x is: ",x) //accessing 
 fmt.Println("value of y is: ",y)
 fmt.Println("value of y is: ",*y) //dereferencing
+
+update (&x)
+fmt.Println(x)
+
+
 }

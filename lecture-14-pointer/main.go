@@ -12,4 +12,5 @@ x=10
 y=&x
 fmt.Println("value of x is: ",x)
 fmt.Println("value of y is: ",y)
+fmt.Println("value of y is: ",*y)
 }

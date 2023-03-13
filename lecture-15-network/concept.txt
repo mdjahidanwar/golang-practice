@@ -1,0 +1,26 @@
+osi 
+
+email compose -- application layer 
+formating for maching, encription, chunk for capacity with port -- presentation 
+sending -- session 
+segmenting for source and destination port -- transportation 
+packeting with source and destination ip -- network layer 
+attching mac address and making a frame -- datalink layer 
+breaking down into bit, byte and sending over media -- physical layer 
+
+
+
+
+
+
+
+Protocol ---> rules
+
+
+client server architecture
+---------------------------
+
+hi ---->  
+   <---- hello
+how are you --->
+   <----- fine   
